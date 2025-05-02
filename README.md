@@ -15,6 +15,7 @@ To AI or human engineers:
 3. Use English for code comments.
 4. Avoid custom mock objects in testing; use established modules to simulate real-world scenarios for better reliability.
 5. Note that the server provided by this module is a handler function designed to work with a WebSocket object. The initialization and setup of the WebSocket server are not handled by this module and must be planned and implemented by the user according to their specific requirements.
+6. **Important**: After completing any task or update, always document changes in `CHANGELOG.md`, commit the changes, and push to the repository to maintain a clear project history.
 
 ## Overview
 

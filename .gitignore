@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+lerna-debug.*
+
+# Node modules
+node_modules
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Dependency directories
+bower_components
+
+# Build output
+dist
+build
+
+# IDE files
+.idea
+.vscode
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Temporary files created by Metro
+.npmrc

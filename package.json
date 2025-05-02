@@ -1,0 +1,44 @@
+{
+  "name": "jsrf-protocol",
+  "version": "1.0.0",
+  "description": "A comprehensive implementation of the JSRF Protocol for JSON synchronization and remote function calls.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "jsrf",
+    "json-sync",
+    "remote-function",
+    "websocket",
+    "protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cbor": "^9.0.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@types/ws": "^8.18.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.38.0",
+    "jest": "^29.5.0",
+    "rollup": "^3.21.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "type": "module"
+}

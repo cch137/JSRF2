@@ -1,0 +1,26 @@
+# Exclude source files not needed in the published package
+src/
+
+# Exclude build and configuration files
+rollup.config.js
+tsconfig.json
+
+# Exclude test files
+tests/
+
+# Exclude documentation not needed in the package
+docs/
+
+# Exclude examples
+examples/
+
+# Exclude node_modules
+node_modules/
+
+# Exclude git files
+.git
+.gitignore
+
+# Exclude temporary and log files
+*.log
+coverage
